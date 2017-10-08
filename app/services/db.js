@@ -9,11 +9,11 @@ const mysql = require('mysql');
 module.exports = function (sql,arg,callback) {
     //1.创建连接(根据自己的数据库配置)
     let config = mysql.createConnection({
-        host:'mysql.donkeytube.co', //数据库的地址
-        user:"admin", //数据库用户名
-        password:"firesoft7102", //数据库密码
+        host:'mysql.example.co', //数据库的地址
+        user:"example", //数据库用户名
+        password:"example", //数据库密码
         port:"3306", //mysql数据库的端口号
-        database:"donkeytube" //使用那个数据库
+        database:"example" //使用那个数据库
     });
     //2.开始连接数据库
     config.connect();
