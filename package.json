@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "dev": "echo 'run dev' && npm start",
+    "test": "echo 'Error: no test specified' && exit 1",
+    "serve": "nodemon --config nodemon.json --exec npm run dev"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
@@ -14,5 +17,6 @@
     "mysql": "^2.15.0",
     "pug": "2.0.0-beta11",
     "serve-favicon": "~2.4.5"
-  }
+  },
+  "devDependencies": {}
 }
