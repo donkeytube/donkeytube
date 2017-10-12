@@ -16,11 +16,11 @@ var paths = {
         'bower_components/magnific-popup/dist/jquery.magnific-popup.js'
     ],
     scripts: [
-        'public/javascripts/common.js',
-        'public/javascripts/home.js'
+        'public/js/common.js',
+        'public/js/home.js'
     ],
-    images: 'public/images/**/*',
-    styles: 'public/stylesheets/**/*',
+    images: 'public/img/**/*',
+    styles: 'public/css/**/*',
     fonts: 'public/fonts/**/*'
 };
 
