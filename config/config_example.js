@@ -1,4 +1,5 @@
 var config = {};
+
 config.db = {
     'host': 'example',
     'port': 'example',
@@ -6,5 +7,11 @@ config.db = {
     'username': 'example',
     'password': 'example'
 };
+
+config.www = {
+    'port': 'example'
+};
+
+config.env = 'dev';
 
 module.exports = config;
